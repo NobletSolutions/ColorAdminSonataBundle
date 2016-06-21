@@ -1,0 +1,7 @@
+parameters:
+#    ns_color_admin_sonata.example.class: NS\ColorAdminSonataBundle\Example
+
+services:
+#    ns_color_admin_sonata.example:
+#        class: %ns_color_admin_sonata.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

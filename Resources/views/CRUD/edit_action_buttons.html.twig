@@ -1,0 +1,7 @@
+{% spaceless %}
+    {% for item in admin.getActionButtons(action, object|default(null)) %}
+        {% if item.template is defined %}
+            {% include item.template %}
+        {% endif %}
+    {% endfor %}
+{% endspaceless %}
