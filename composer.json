@@ -19,8 +19,8 @@
         "sonata-project/doctrine-orm-admin-bundle": "^3.0",
         "sonata-project/admin-bundle": "^3.3",
         "ns/flash-bundle": "^1.0",
-	"ns/color-admin-bundle: "*",
-        "knplabs/knp-menu-bundle": "~2.1",
+	"ns/color-admin-bundle": "*",
+        "knplabs/knp-menu-bundle": "~2.1"
     },
     "suggest": {	
         "knplabs/knp-paginator-bundle": "^2.5",
