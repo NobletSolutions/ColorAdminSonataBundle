@@ -1,0 +1,35 @@
+{
+    "name": "ns/color-admin-sonata-bundle",
+    "description": "Sonata integration for Color Admin templates",
+    "keywords": ["template, sonata"],
+    "homepage": "https://github.com/NobletSolutions/ColorAdminSonataBundle",
+    "authors": [
+        {
+            "name": "Mark Woynarski",
+            "email": "mark.woynarski@nobletdesign.com"
+        },
+	{
+	    "name": "Nathanael David Noblet",
+	    "email": "nathanael@noblet.ca"
+	}
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "symfony/symfony": "^2.8|^3.0",
+        "sonata-project/doctrine-orm-admin-bundle": "^3.0",
+        "sonata-project/admin-bundle": "^3.3",
+        "ns/flash-bundle": "^1.0",
+	"ns/color-admin-bundle: "*",
+        "knplabs/knp-menu-bundle": "~2.1",
+    },
+    "suggest": {	
+        "knplabs/knp-paginator-bundle": "^2.5",
+        "egeloen/ckeditor-bundle": "^4.0",
+        "pixassociates/sortable-behavior-bundle": "^1.1-dev",
+        "stof/doctrine-extensions-bundle": "^1.2"
+    },
+    "autoload": {
+        "psr-4": { "NS\\ColorAdminBundle\\": "" }
+    }
+}
+
