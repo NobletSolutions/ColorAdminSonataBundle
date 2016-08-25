@@ -1,7 +1,7 @@
 {
     "name": "ns/color-admin-sonata-bundle",
     "description": "Sonata integration for Color Admin templates",
-    "keywords": ["template, sonata"],
+    "keywords": ["template", "sonata"],
     "homepage": "https://github.com/NobletSolutions/ColorAdminSonataBundle",
     "authors": [
         {
