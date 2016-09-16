@@ -15,7 +15,7 @@
     ],
     "require": {
         "php": ">=5.5.9",
-        "symfony/symfony": "^2.8|^3.0",
+        "symfony/symfony": "^2.8|~3.0",
         "sonata-project/doctrine-orm-admin-bundle": "^3.0",
         "sonata-project/admin-bundle": "^3.3",
         "ns/flash-bundle": "^1.0",
