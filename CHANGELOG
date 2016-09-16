@@ -3,5 +3,6 @@ VERSION 0  ADDED INPUTWRAPPEREXTENSION
 ======================================
 
    Version 0.5 - Added InputWrapperExtension
+      16/09/2016 14:09  0.5.5  Update composer version
       25/08/2016 17:27  0.5.4  Fixed typo
       25/08/2016 16:53  0.5.3  initial release
