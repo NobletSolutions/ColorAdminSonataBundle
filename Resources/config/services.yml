@@ -2,10 +2,16 @@ parameters:
 #    ns_color_admin_sonata.example.class: NS\ColorAdminSonataBundle\Example
 
 services:
-   ns_ace.form.hidden_parent_extension:
+   ns_color_admin_sonata.form.hidden_parent_extension:
       class: NS\ColorAdminSonataBundle\Form\Extensions\InputWrapperExtension
       tags:
         - { name: form.type_extension, alias: form, extended_type: Symfony\Component\Form\Extension\Core\Type\FormType }
+
+   ns_color_admin_stonta.template_extension:
+      class: NS\ColorAdminSonataBundle\Twig\TemplateExtension
+      arguments: [%ns_color_admin_sonata.templates%]
+      tags:
+        - { name: twig.extension }
 
 #    ns_color_admin_sonata.example:
 #        class: %ns_color_admin_sonata.example.class%
