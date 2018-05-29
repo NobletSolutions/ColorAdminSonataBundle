@@ -3,6 +3,7 @@ VERSION 0  ADDED INPUTWRAPPEREXTENSION
 ======================================
 
    Version 0.5 - Added InputWrapperExtension
+      29/05/2018 14:37  0.5.8  Fixed typo
       29/05/2018 12:08  0.5.7  Update bundle
       30/09/2016 13:48  0.5.6  Configurable List action button layout
       16/09/2016 14:09  0.5.5  Update composer version
