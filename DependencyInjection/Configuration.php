@@ -26,6 +26,7 @@ class Configuration implements ConfigurationInterface
                         ->addDefaultsIfNotSet()
                         ->children()
                             ->booleanNode('horizontal_action_buttons')->defaultFalse()->end()
+                            ->scalarNode('layout')->defaultValue('::layout.html.twig')->end()
                         ->end()
                     ->end()
                 ->end();

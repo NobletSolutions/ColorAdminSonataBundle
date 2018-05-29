@@ -15,6 +15,7 @@ class TemplateExtension extends \Twig_Extension implements \Twig_Extension_Globa
     {
         return array(
             'horizontal_action_buttons' => $this->template_config['horizontal_action_buttons'],
+            'color_admin_layout' => $this->template_config['layout'],
         );
     }
 
