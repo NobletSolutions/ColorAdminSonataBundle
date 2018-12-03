@@ -16,8 +16,8 @@
     "require": {
         "php": ">=5.5.9",
         "symfony/symfony": "^2.8|~3.0",
-        "sonata-project/doctrine-orm-admin-bundle": "*",
-        "sonata-project/admin-bundle": "*",
+        "sonata-project/doctrine-orm-admin-bundle": "~3.0",
+        "sonata-project/admin-bundle": "~3.0",
         "ns/flash-bundle": "^1.0",
 	"ns/color-admin-bundle": "*",
         "knplabs/knp-menu-bundle": "~2.1"
