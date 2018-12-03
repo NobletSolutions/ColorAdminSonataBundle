@@ -3,6 +3,7 @@ VERSION 0  ADDED INPUTWRAPPEREXTENSION
 ======================================
 
    Version 0.5 - Added InputWrapperExtension
+      03/12/2018 14:54  0.5.10  Set needed service definition defaults for SF 3.4
       03/12/2018 12:43  0.5.9  Added required body params for Sonata
       29/05/2018 14:37  0.5.8  Fixed typo
       29/05/2018 12:08  0.5.7  Update bundle
