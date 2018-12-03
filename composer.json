@@ -16,13 +16,13 @@
     "require": {
         "php": ">=5.5.9",
         "symfony/symfony": "^2.8|~3.0",
-        "sonata-project/doctrine-orm-admin-bundle": "^3.0",
-        "sonata-project/admin-bundle": "^3.3",
+        "sonata-project/doctrine-orm-admin-bundle": "*",
+        "sonata-project/admin-bundle": "*",
         "ns/flash-bundle": "^1.0",
 	"ns/color-admin-bundle": "*",
         "knplabs/knp-menu-bundle": "~2.1"
     },
-    "suggest": {	
+    "suggest": {
         "knplabs/knp-paginator-bundle": "^2.5",
         "egeloen/ckeditor-bundle": "^4.0",
         "pixassociates/sortable-behavior-bundle": "^1.1-dev",
