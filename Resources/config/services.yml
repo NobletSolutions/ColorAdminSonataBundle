@@ -1,4 +1,6 @@
 parameters:
+   _defaults:
+      public: true
 #    ns_color_admin_sonata.example.class: NS\ColorAdminSonataBundle\Example
 
 services:
